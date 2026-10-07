@@ -1,1 +1,29 @@
-{"$schema":"https://agent-plugins.org/schemas/1.0.0/plugin.schema.json","name":"uniquel-mcp","version":"0.1.0","description":"Search Uniquel UI components and retrieve their source.","author":{"name":"Uniquel","url":"https://uniquel.io"},"homepage":"https://uniquel.io/mcp","repository":"https://github.com/uniquel-io/uniquel-mcp-server","keywords":["uniquel","ui","components","design-system","mcp"]}
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "uniquel",
+  "version": "0.1.0",
+  "description": "Search Uniquel UI components and retrieve their source.",
+  "author": {
+    "name": "Uniquel",
+    "url": "https://uniquel.io"
+  },
+  "homepage": "https://uniquel.io",
+  "repository": "https://github.com/uniquel-io/uniquel-mcp-server",
+  "license": "MIT",
+  "keywords": [
+    "uniquel",
+    "ui",
+    "components",
+    "design",
+    "mcp",
+    "web design",
+    "web development",
+    "web components",
+    "web design components",
+    "web development components",
+    "web design blocks",
+    "web development blocks",
+    "web design templates",
+    "web development templates"
+  ]
+}

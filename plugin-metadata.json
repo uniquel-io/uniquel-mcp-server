@@ -25,7 +25,11 @@
     "web design templates",
     "web development templates"
   ],
-  "mcpServers": "./.mcp.json",
+  "mcp": {
+    "serverName": "uniquel",
+    "registryName": "io.uniquel/mcp",
+    "url": "https://uniquel.io/api/mcp"
+  },
   "interface": {
     "displayName": "Uniquel UI Components",
     "shortDescription": "Find UI components",

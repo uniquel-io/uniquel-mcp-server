@@ -83,6 +83,24 @@ This repository includes marketplace manifests for Codex, Claude, and Cursor:
 
 The root [mcp.json](./mcp.json) contains the portable Streamable HTTP configuration. The Codex compatibility configuration is in [.mcp.json](./.mcp.json).
 
+## Publishing and maintenance
+
+This is one plugin source shared by Codex, Claude, and Cursor. Platform manifests are generated adapters; do not edit them by hand. Update [plugin-metadata.json](./plugin-metadata.json), then regenerate every manifest with:
+
+```bash
+node scripts/generate-manifests.mjs
+```
+
+The canonical MCP endpoint is also generated from `plugin-metadata.json`. The repository does not need a Codex marketplace catalog unless Uniquel operates its own Codex marketplace.
+
+Create the upload-ready Codex package with:
+
+```bash
+node scripts/package-codex.mjs
+```
+
+It regenerates the manifests, stages the portable plugin files in `dist/uniquel/`, and creates `dist/uniquel.zip` with that single top-level folder.
+
 ## Authentication and access
 
 Uniquel uses secure OAuth authentication. Sign in with your Uniquel account when your client prompts you; access remains tied to that account.
