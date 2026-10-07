@@ -73,6 +73,16 @@ Use the same endpoint in any client that supports remote HTTP MCP:
 }
 ```
 
+## Marketplace packages
+
+This repository includes marketplace manifests for Codex, Claude, and Cursor:
+
+- [Codex](./.codex-plugin/plugin.json)
+- [Claude](./.claude-plugin/plugin.json)
+- [Cursor](./.cursor-plugin/plugin.json)
+
+The root [mcp.json](./mcp.json) contains the portable Streamable HTTP configuration. The Codex compatibility configuration is in [.mcp.json](./.mcp.json).
+
 ## Authentication and access
 
 Uniquel uses secure OAuth authentication. Sign in with your Uniquel account when your client prompts you; access remains tied to that account.
