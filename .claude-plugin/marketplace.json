@@ -1,0 +1,1 @@
+{"name":"uniquel-io","description":"Official Uniquel plugins for finding and using production-ready UI components.","owner":{"name":"Uniquel"},"plugins":[{"name":"uniquel","source":"./","description":"Search Uniquel UI components and retrieve their source.","category":"design","homepage":"https://uniquel.io/mcp","keywords":["uniquel","ui","components","design-system"]}]}

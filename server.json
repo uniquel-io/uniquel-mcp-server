@@ -1,0 +1,1 @@
+{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","name":"io.uniquel/mcp","title":"Uniquel","description":"Search Uniquel UI components and blocks, then retrieve source for the selected item.","version":"0.1.0","websiteUrl":"https://uniquel.io/mcp","remotes":[{"type":"streamable-http","url":"https://uniquel.io/api/mcp"}]}
