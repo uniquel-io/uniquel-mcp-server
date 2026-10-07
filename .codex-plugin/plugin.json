@@ -36,7 +36,8 @@
       "Search UI components",
       "Retrieve component source"
     ],
-    "websiteURL": "https://uniquel.io/mcp",
+    "websiteURL": "https://uniquel.io",
+    "supportURL": "https://uniquel.io/contact",
     "privacyPolicyURL": "https://uniquel.io/privacy-policy",
     "termsOfServiceURL": "https://uniquel.io/tos",
     "defaultPrompt": [
