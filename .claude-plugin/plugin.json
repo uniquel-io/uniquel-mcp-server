@@ -8,6 +8,7 @@
   },
   "homepage": "https://uniquel.io",
   "repository": "https://github.com/uniquel-io/uniquel-mcp-server",
+  "privacyPolicyUrl": "https://uniquel.io/privacy-policy",
   "license": "MIT",
   "keywords": [
     "uniquel",
