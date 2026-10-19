@@ -3,7 +3,7 @@
   "name": "io.uniquel/mcp",
   "title": "Uniquel UI Components",
   "description": "Search Uniquel UI components and blocks, then retrieve source for the selected item.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://uniquel.io",
   "remotes": [
     {

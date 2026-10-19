@@ -33,6 +33,17 @@ codex mcp list
 
 Start a new Codex session after the server is connected.
 
+### Claude Code
+
+Install the plugin:
+
+```
+/plugin marketplace add uniquel-io/uniquel-mcp-server
+/plugin install uniquel@uniquel-io
+```
+
+Complete the Uniquel sign-in flow from `/mcp`, then start a new session.
+
 ### Claude
 
 In Claude, open **Settings → Connectors**, add a custom connector, and use:

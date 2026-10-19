@@ -44,7 +44,27 @@ await Promise.all([
     mcpServers: "./.mcp.json",
     interface: pluginInterface
   }),
-  writeJson(".claude-plugin/plugin.json", baseManifest),
+  // Claude Code needs an explicit type for remote servers; .mcp.json stays url-only for Codex.
+  writeJson(".claude-plugin/plugin.json", {
+    ...baseManifest,
+    mcpServers: { [mcp.serverName]: { type: "http", url: mcp.url } }
+  }),
+  writeJson(".claude-plugin/marketplace.json", {
+    name: "uniquel-io",
+    description: "Official Uniquel plugins for finding and using production-ready UI components.",
+    owner: { name: metadata.author.name, url: metadata.author.url },
+    plugins: [
+      {
+        name: metadata.name,
+        source: "./",
+        description: metadata.description,
+        version: metadata.version,
+        category: "design",
+        homepage: "https://uniquel.io/mcp",
+        keywords: metadata.keywords
+      }
+    ]
+  }),
   writeJson(".cursor-plugin/plugin.json", {
     ...baseManifest,
     displayName: pluginInterface.displayName,

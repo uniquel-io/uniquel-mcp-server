@@ -1,1 +1,29 @@
-{"name":"uniquel-io","description":"Official Uniquel plugins for finding and using production-ready UI components.","owner":{"name":"Uniquel"},"plugins":[{"name":"uniquel","source":"./","description":"Search Uniquel UI components and retrieve their source.","category":"design","homepage":"https://uniquel.io/mcp","keywords":["uniquel","ui","components","design-system"]}]}
+{
+  "name": "uniquel-io",
+  "description": "Official Uniquel plugins for finding and using production-ready UI components.",
+  "owner": {
+    "name": "Uniquel",
+    "url": "https://uniquel.io"
+  },
+  "plugins": [
+    {
+      "name": "uniquel",
+      "source": "./",
+      "description": "Search Uniquel UI components and retrieve their source.",
+      "version": "0.2.0",
+      "category": "design",
+      "homepage": "https://uniquel.io/mcp",
+      "keywords": [
+        "uniquel",
+        "ui",
+        "components",
+        "design-system",
+        "mcp",
+        "web design",
+        "web development",
+        "blocks",
+        "templates"
+      ]
+    }
+  ]
+}

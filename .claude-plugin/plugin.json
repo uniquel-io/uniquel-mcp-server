@@ -1,6 +1,6 @@
 {
   "name": "uniquel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Search Uniquel UI components and retrieve their source.",
   "author": {
     "name": "Uniquel",
@@ -13,16 +13,17 @@
     "uniquel",
     "ui",
     "components",
-    "design",
+    "design-system",
     "mcp",
     "web design",
     "web development",
-    "web components",
-    "web design components",
-    "web development components",
-    "web design blocks",
-    "web development blocks",
-    "web design templates",
-    "web development templates"
-  ]
+    "blocks",
+    "templates"
+  ],
+  "mcpServers": {
+    "uniquel": {
+      "type": "http",
+      "url": "https://uniquel.io/api/mcp"
+    }
+  }
 }
