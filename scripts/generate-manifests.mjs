@@ -48,6 +48,8 @@ await Promise.all([
   writeJson(".claude-plugin/plugin.json", {
     ...baseManifest,
     displayName: pluginInterface.displayName,
+    termsOfServiceUrl: pluginInterface.termsOfServiceURL,
+    supportUrl: pluginInterface.supportURL,
     mcpServers: { [mcp.serverName]: { type: "http", url: mcp.url } }
   }),
   writeJson(".claude-plugin/marketplace.json", {
