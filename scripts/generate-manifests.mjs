@@ -47,6 +47,7 @@ await Promise.all([
   // Claude Code needs an explicit type for remote servers.
   writeJson(".claude-plugin/plugin.json", {
     ...baseManifest,
+    displayName: pluginInterface.displayName,
     mcpServers: { [mcp.serverName]: { type: "http", url: mcp.url } }
   }),
   writeJson(".claude-plugin/marketplace.json", {

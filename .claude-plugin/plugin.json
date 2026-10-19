@@ -1,5 +1,6 @@
 {
   "name": "uniquel",
+  "displayName": "Uniquel UI Components",
   "version": "0.2.0",
   "description": "Search Uniquel UI components and retrieve their source.",
   "author": {
