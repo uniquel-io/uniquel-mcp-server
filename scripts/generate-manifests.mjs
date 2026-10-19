@@ -27,7 +27,7 @@ await Promise.all([
   }),
   writeJson(".mcp.json", {
     mcpServers: Object.fromEntries(
-      Object.entries(mcpServers).map(([name, server]) => [name, { url: server.url }])
+      Object.entries(mcpServers).map(([name, server]) => [name, { type: "http", url: server.url }])
     )
   }),
   writeJson("server.json", {
@@ -44,7 +44,7 @@ await Promise.all([
     mcpServers: "./.mcp.json",
     interface: pluginInterface
   }),
-  // Claude Code needs an explicit type for remote servers; .mcp.json stays url-only for Codex.
+  // Claude Code needs an explicit type for remote servers.
   writeJson(".claude-plugin/plugin.json", {
     ...baseManifest,
     mcpServers: { [mcp.serverName]: { type: "http", url: mcp.url } }

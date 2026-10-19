@@ -124,7 +124,7 @@ After connecting, ask your agent:
 
 > Use the Uniquel MCP to find a free component that would improve this project, then show me the best match before adding it.
 
-For new UI work, add the rule in [AGENTS.md](./AGENTS.md) to your project so your coding agent checks the catalog first.
+For new UI work, add the rule in [templates/AGENTS.md](./templates/AGENTS.md) to your project so your coding agent checks the catalog first.
 
 ## Troubleshooting
 
