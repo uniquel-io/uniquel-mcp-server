@@ -10,19 +10,24 @@
       "name": "uniquel",
       "source": "./",
       "description": "Search Uniquel UI components and retrieve their source.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "design",
       "homepage": "https://uniquel.io/mcp",
       "keywords": [
         "uniquel",
         "ui",
         "components",
-        "design-system",
+        "design",
         "mcp",
         "web design",
         "web development",
-        "blocks",
-        "templates"
+        "web components",
+        "web design components",
+        "web development components",
+        "web design blocks",
+        "web development blocks",
+        "web design templates",
+        "web development templates"
       ]
     }
   ]

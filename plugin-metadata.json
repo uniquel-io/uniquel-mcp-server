@@ -1,6 +1,6 @@
 {
   "name": "uniquel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Search Uniquel UI components and retrieve their source.",
   "author": {
     "name": "Uniquel",
@@ -33,7 +33,7 @@
   "interface": {
     "displayName": "Uniquel UI Components",
     "shortDescription": "Find UI components",
-    "longDescription": "Search the Uniquel UI library for components and blocks, then retrieve the source for the item you select. A Uniquel account is required; All Access members can retrieve premium blocks.",
+    "longDescription": "Search the Uniquel UI library for React and Next.js components and blocks styled with Tailwind CSS, then retrieve the source for the item you select. Components are reusable UI elements like buttons, cards, and forms; blocks are complete page sections like heroes, pricing tables, and footers. A Uniquel account is required; All Access members can retrieve premium blocks.",
     "developerName": "Uniquel",
     "category": "Developer Tools",
     "capabilities": [

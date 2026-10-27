@@ -41,6 +41,7 @@ await Promise.all([
   }),
   writeJson(".codex-plugin/plugin.json", {
     ...baseManifest,
+    skills: "./skills/",
     mcpServers: "./.mcp.json",
     interface: pluginInterface
   }),
@@ -48,6 +49,7 @@ await Promise.all([
   writeJson(".claude-plugin/plugin.json", {
     ...baseManifest,
     displayName: pluginInterface.displayName,
+    privacyPolicyUrl: pluginInterface.privacyPolicyURL,
     termsOfServiceUrl: pluginInterface.termsOfServiceURL,
     supportUrl: pluginInterface.supportURL,
     mcpServers: { [mcp.serverName]: { type: "http", url: mcp.url } }

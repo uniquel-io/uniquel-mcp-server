@@ -1,7 +1,6 @@
 {
   "name": "uniquel",
-  "displayName": "Uniquel UI Components",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Search Uniquel UI components and retrieve their source.",
   "author": {
     "name": "Uniquel",
@@ -9,21 +8,27 @@
   },
   "homepage": "https://uniquel.io",
   "repository": "https://github.com/uniquel-io/uniquel-mcp-server",
-  "privacyPolicyUrl": "https://uniquel.io/privacy-policy",
-  "termsOfServiceUrl": "https://uniquel.io/tos",
-  "supportUrl": "https://uniquel.io/contact",
   "license": "MIT",
   "keywords": [
     "uniquel",
     "ui",
     "components",
-    "design-system",
+    "design",
     "mcp",
     "web design",
     "web development",
-    "blocks",
-    "templates"
+    "web components",
+    "web design components",
+    "web development components",
+    "web design blocks",
+    "web development blocks",
+    "web design templates",
+    "web development templates"
   ],
+  "displayName": "Uniquel UI Components",
+  "privacyPolicyUrl": "https://uniquel.io/privacy-policy",
+  "termsOfServiceUrl": "https://uniquel.io/tos",
+  "supportUrl": "https://uniquel.io/contact",
   "mcpServers": {
     "uniquel": {
       "type": "http",
