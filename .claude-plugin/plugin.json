@@ -1,7 +1,7 @@
 {
   "name": "uniquel",
-  "version": "0.2.1",
-  "description": "Search Uniquel UI components and retrieve their source.",
+  "version": "0.2.2",
+  "description": "Use this when a coding agent is editing a Next.js or React project styled with Tailwind CSS and needs component or section source to add to the repo. Do not use for design advice, mockups, or UI questions when no codebase is open.",
   "author": {
     "name": "Uniquel",
     "url": "https://uniquel.io"
@@ -11,19 +11,11 @@
   "license": "MIT",
   "keywords": [
     "uniquel",
-    "ui",
     "components",
-    "design",
-    "mcp",
-    "web design",
-    "web development",
-    "web components",
-    "web design components",
-    "web development components",
-    "web design blocks",
-    "web development blocks",
-    "web design templates",
-    "web development templates"
+    "blocks",
+    "next.js",
+    "react",
+    "tailwind"
   ],
   "displayName": "Uniquel UI Components",
   "privacyPolicyUrl": "https://uniquel.io/privacy-policy",

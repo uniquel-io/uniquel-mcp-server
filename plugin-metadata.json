@@ -1,7 +1,7 @@
 {
   "name": "uniquel",
-  "version": "0.2.1",
-  "description": "Search Uniquel UI components and retrieve their source.",
+  "version": "0.2.2",
+  "description": "Use this when a coding agent is editing a Next.js or React project styled with Tailwind CSS and needs component or section source to add to the repo. Do not use for design advice, mockups, or UI questions when no codebase is open.",
   "author": {
     "name": "Uniquel",
     "url": "https://uniquel.io"
@@ -11,19 +11,11 @@
   "license": "MIT",
   "keywords": [
     "uniquel",
-    "ui",
     "components",
-    "design",
-    "mcp",
-    "web design",
-    "web development",
-    "web components",
-    "web design components",
-    "web development components",
-    "web design blocks",
-    "web development blocks",
-    "web design templates",
-    "web development templates"
+    "blocks",
+    "next.js",
+    "react",
+    "tailwind"
   ],
   "mcp": {
     "serverName": "uniquel",
@@ -32,8 +24,8 @@
   },
   "interface": {
     "displayName": "Uniquel UI Components",
-    "shortDescription": "Find UI components",
-    "longDescription": "Search the Uniquel UI library for React and Next.js components and blocks styled with Tailwind CSS, then retrieve the source for the item you select. Components are reusable UI elements like buttons, cards, and forms; blocks are complete page sections like heroes, pricing tables, and footers. A Uniquel account is required; All Access members can retrieve premium blocks.",
+    "shortDescription": "React + Tailwind source",
+    "longDescription": "Use this when Codex is writing code in a Next.js or React app styled with Tailwind CSS. Search the Uniquel catalog and insert the source for a component or page section into the project. Do not use it in a chat with no codebase, or for design feedback, mockups, and layout ideas.",
     "developerName": "Uniquel",
     "category": "Developer Tools",
     "capabilities": [

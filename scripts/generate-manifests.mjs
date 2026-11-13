@@ -34,7 +34,7 @@ await Promise.all([
     $schema: "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
     name: mcp.registryName,
     title: pluginInterface.displayName,
-    description: "Search Uniquel UI components and blocks, then retrieve source for the selected item.",
+    description: metadata.description,
     version: metadata.version,
     websiteUrl: metadata.homepage,
     remotes: [{ type: "streamable-http", url: mcp.url }]
